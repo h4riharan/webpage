@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+
+}
+header{
+    box-shadow: 0px 3px 10px rgb(0,0,0,1);
+    position:sticky;
+    top: 0px;
+    background-color: white;
+}
+nav{
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1,
+nav ul{
+    font-size: 1rem;
+    flex: 1;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+section h2{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home{
+    background: linear-gradient(to bottom, #56ccf2, #2f80ed);
+}
+.About{
+    background: linear-gradient(to bottom, #ffafbd, #ffc3a0);
+}
+.Services{
+    background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+}
+.Projects{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.Contact-us{
+    background: linear-gradient(to left, #457fca, #5691c8);
+}
+.nextdiv{
+    position: absolute;
+    z-index: -2;
+    background: linear-gradient(to bottom, #56ccf2, #2f80ed);
+    transform: scale(2);
+    transition: all 0.5s ease;
+}
