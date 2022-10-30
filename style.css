@@ -42,7 +42,7 @@ section h2{
     align-items: center;
 }
 .Home{
-    background: linear-gradient(to bottom, #56ccf2, #2f80ed);
+    background: linear-gradient(to bottom, #fff, #2f80ed);
 }
 .About{
     background: linear-gradient(to bottom, #ffafbd, #ffc3a0);
